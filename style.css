@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	
+	text-align: center;
+	background-image: url('assets/background-evil-large.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: black;
+	
+	font-family: sans-serif;
+	font-size: 16pt;
+	color: white;
+}
+
+#bodyContainer {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	padding: 0 25px 25px 25px;
+	box-sizing: border-box;
+	
+	background: rgba(255,255,255,0.8);
+	width: 60%;
+	height: 100%;
+	
+	text-align: center;
+	
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#header {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto auto 25px auto;
+	overflow: hidden;
+	
+	width: 100%;
+	
+	background: black;
+}
+
+h1 {
+	margin-top: 25px;
+	font-size: 20pt;
+	z-index: 0;
+}
+
+a { color: red; text-decoration: none; }
+a:hover, a:focus { text-decoration: underline; }
+
+fieldset {
+	margin: 5px auto;
+	vertical-align: top;
+	display: inline-block;
+	
+	height: auto;
+	
+	text-align: left;
+	border: 1px solid white;
+}
+
+fieldset p, fieldset label {
+	font-size: 12pt;
+	margin: 0;
+}
+
+input[type="checkbox"] { vertical-align: middle; }

@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<title>[AIZ] shrubbyfrog - SAVE EDITOR</title>
+		<link rel="icon" href="../../myfiles/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+			<div id="header">
+				<h1>Eversion Save Editor</h1>
+			</div>
+			
+				<fieldset style="width: 250px;"><legend>save.sav</legend>
+					<p style="font-size: 10pt; color: red;" id="uploadError"></p>
+					<input id="uploadFile" type="file" accept=".sav"></input>
+						<input id="loadFile" type="button" value="Load" /> <a download="save.sav"><input id="saveFile" type="button" value="Save" disabled /></a>
+					<p style="margin-top: 5px;"><b>Game version:</b> <span id="gameVersion"></span></p>
+				</fieldset><br />
+				<fieldset><legend align="left">General</legend>
+					<label>True Ending Menu Unlocked <input id="trueMenu" type="checkbox" disabled /></label><br />
+					<p style="font-size: 10pt;">(Also unlocks Time Attack mode in versions 1.7.3 and HD)</p>
+					<hr />
+					<label>World 2 Unlocked <input id="worldTwo" class="worlds" type="checkbox" disabled /></label> <label>World 3 Unlocked <input id="worldThree" class="worlds" type="checkbox" disabled /></label><br />
+					<label>World 4 Unlocked <input id="worldFour" class="worlds" type="checkbox" disabled /></label> <label>World 5 Unlocked <input id="worldFive" class="worlds" type="checkbox" disabled /></label><br />
+					<label>World 6 Unlocked <input id="worldSix" class="worlds" type="checkbox" disabled /></label> <label>World 7 Unlocked <input id="worldSeven" class="worlds" type="checkbox" disabled /></label><br />
+					<label>World 8 Unlocked <input id="worldEight" class="worlds" type="checkbox" disabled /></label> <input id="worldSelect" class="selects" value="Select all" type="button" disabled /> <input id="worldClear" class="clears" value="Clear all" type="button" disabled />
+					<hr />
+					<p><b>Collected letters</b></p>
+					<p style="font-size: 10pt;">(Only available for HD)</p>
+					<label>E <input id="letterOne" class="letters" type="checkbox" disabled /></label>
+					<label>V <input id="letterTwo" class="letters" type="checkbox" disabled /></label>
+					<label>E<input id="letterThree" class="letters" type="checkbox" disabled /></label>
+					<label>R <input id="letterFour" class="letters" type="checkbox" disabled /></label>
+					<label>S <input id="letterFive" class="letters" type="checkbox" disabled /></label>
+					<label>I <input id="letterSix" class="letters" type="checkbox" disabled /></label>
+					<label>O <input id="letterSeven" class="letters" type="checkbox" disabled /></label>
+					<label>N <input id="letterEight" class="letters" type="checkbox" disabled /></label><br />
+					<input id="letterSelect" class="selects" value="Select all" type="button" disabled /></label> <input id="letterClear" class="clears" value="Clear all" type="button" disabled />
+				</fieldset>
+				<fieldset><legend align="left">Gems</legend>
+					<label>All World 1 Gems Collected <input id="worldOneGems" class="gems" type="checkbox" disabled /></label><br />
+					<label>All World 2 Gems Collected <input id="worldTwoGems" class="gems" type="checkbox" disabled /></label><br />
+					<label>All World 3 Gems Collected <input id="worldThreeGems" class="gems" type="checkbox" disabled /></label><br />
+					<label>All World 4 Gems Collected <input id="worldFourGems" class="gems" type="checkbox" disabled /></label><br />
+					<label>All World 5 Gems Collected <input id="worldFiveGems" class="gems" type="checkbox" disabled /></label><br />
+					<label>All World 6 Gems Collected <input id="worldSixGems" class="gems" type="checkbox" disabled /></label><br />
+					<label>All World 7 Gems Collected <input id="worldSevenGems" class="gems" type="checkbox" disabled /></label><br />
+					<input id="gemSelect" class="selects" value="Select all" type="button" disabled /> <input id="gemClear" class="clears" value="Clear all" type="button" disabled />
+				</fieldset><br />
+				<fieldset style="width: 350px;"><legend align="left">Missing/broken files?</legend>
+					<p>If your <b>save.sav</b> file is missing, corrupted, or otherwise unreadable, boot the game as normal <b>only if an empty.sav file is present</b>, and it will generate a fresh save.sav file.</p>
+					<br />
+					<p>If your <b>empty.sav</b> file is missing, corrupted, or otherwise unreadable, grab a clean one here:</p>
+					<p><b><a href="assets/empty.sav">empty.sav</a></b></p>
+					<p style="font-size: 10pt;">(Will work with any version of the game)</p>
+				</fieldset>
+				<fieldset><legend align="left">Useful resources</legend>
+				<p><b><a href="http://fastcall22.blogspot.com/2010/03/eversion-level-editor-13-eversionmod-10.html">Eversion Level Editor</a></b> by Fastcall</p>
+				<p><b><a href="https://github.com/tornado-ii/EversionRipper">EversionRipper</a></b> by Hybrid-Dragon</p>
+				</fieldset>
+	</body>
+</html>

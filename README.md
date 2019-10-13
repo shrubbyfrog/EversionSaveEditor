@@ -10,9 +10,9 @@ http://frog.angel-island.zone/eversion/save-editor/
    * For any non-Steam version of the game, this will be located in the root directory of your Eversion game folder.
    * For the Steam version of the game, navigate to Eversion in your game library, right click and select `Properties`, click on the `Local Files` tab, and select `Browse Local Files`.
 2. Select or deselect options as desired.
-   * Certain options may not be available depending on your version of the game.
+   * **Certain options may not be available depending on your version of the game.**
 3. Save and overwrite your pre-existing **save.sav** file.
-   * **The game must be closed before replacing your save.sav file.**
+   * **The game must be closed before replacing the file.**
 4. Enjoy!
 
 ## empty.sav

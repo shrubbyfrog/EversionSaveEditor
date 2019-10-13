@@ -3,6 +3,8 @@ A web-based save editor for Eversion (freeware) and Eversion HD.
 
 This save editor is written in a mixture of Javascript and JQuery and runs directly within the browser. It is compatible with both the freeware versions of Eversion as well as Eversion HD. The script was adapted and optimized by [tornado-ii](https://github.com/tornado-ii) (Hybrid-Dragon).
 
+http://frog.angel-island.zone/eversion/save-editor/
+
 # Usage
 1. Select your **save.sav** file and load it into the program.
    * For any non-Steam version of the game, this will be located in the root directory of your Eversion game folder.

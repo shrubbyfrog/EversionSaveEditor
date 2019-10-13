@@ -1,7 +1,7 @@
 # Eversion Web Save Editor
 A web-based save editor for Eversion (freeware) and Eversion HD.
 
-This save editor is written in a mixture of Javascript and JQuery and runs directly within the browser. It is compatible with both the freeware versions of Eversion as well as Eversion HD. The script was adapted and optimized by [tornado-ii](https://github.com/tornado-ii) (Hybrid-Dragon).
+This save editor is written in a mixture of Javascript and jQuery and runs directly within the browser. It is compatible with both the freeware versions of Eversion as well as Eversion HD. The script was adapted and optimized by [tornado-ii](https://github.com/tornado-ii) (Hybrid-Dragon).
 
 http://frog.angel-island.zone/eversion/save-editor/
 
